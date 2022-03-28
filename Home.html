@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Netflix Home</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body style="background-color: rgb(9, 9, 9);font-family: Nutino,sans-serif;">
+<div class="joker">
+    <div style="display: flex;flex-direction: column;">
+      <div style="display: flex;flex-direction: column-reverse;">
+          <div><img src="images/joker.jpg" style="width:100%;margin-top: -50px;"></div>
+          <div class="divlogo">
+              <div style="display: flex;">
+                 <div><img src="images/netflix.png" class="logo"></div>
+                 <div style="color: white;margin-top: 52px;padding-left: 20px;cursor: pointer;" class="needhelp">series</div>
+                 <div style="color: white;margin-top: 52px;padding-left: 20px;cursor: pointer;" class="needhelp">films</div>
+              </div>
+          </div>
+      </div>
+      <div style="margin-top:-40%;padding-bottom: 20%;margin-left: 50px;">
+          <h1 style="color: white;">Watch Joker now</h1>
+          <p style="color: white;">Forever alone in crowd,failed comedian Arthur Fleck seeks<br>
+           connection as he walks the streets of Gotham city Arthur wears<br>
+           two masks - the one he paints for his job as a clown,and the<br>
+           guise he project in a futile attempt to feel like he's part of the<br>
+           world around him.
+         </p>
+         <button onclick="videozoom('netvideo','nb1','n110')" id="n110" class="playbut">Play</button>
+      </div>
+    </div>
+</div>
+<div class="trending">
+      <div style="color: white;">Trending</div>
+      <div class="trendingflex">
+
+        <div onclick="zoom('im11','di11','cl11')">
+            <img src="images/Trending/behindhereyes.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im11">
+            <div class="modal" id="di11">
+                <div class="modalContent">
+                     <span class="close" id="cl11">&times;</span>
+                     <img src="images/Trending/behindhereyes.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n11')" id="n11" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im12','di12','cl12')">
+            <img src="images/Trending/cursed.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im12">
+            <div class="modal" id="di12">
+                <div class="modalContent">
+                     <span class="close" id="cl12">&times;</span>
+                     <img src="images/Trending/cursed.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n12')" id="n12" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im13','di13','cl13')">
+            <img src="images/Trending/Elite-Poster.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im13">
+            <div class="modal" id="di13">
+                <div class="modalContent">
+                     <span class="close" id="cl13">&times;</span>
+                     <img src="images/Trending/Elite-Poster.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n13')" id="n13" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im14','di14','cl14')">
+            <img src="images/Trending/lostdaughter.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im14">
+            <div class="modal" id="di14">
+                <div class="modalContent">
+                     <span class="close" id="cl14">&times;</span>
+                     <img src="images/Trending/lostdaughter.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n14')" id="n14" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im15','di15','cl15')">
+            <img src="images/Trending/moneyheist.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im15">
+            <div class="modal" id="di15">
+                <div class="modalContent">
+                     <span class="close" id="cl15">&times;</span>
+                     <img src="images/Trending/moneyheist.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n15')" id="n15" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im16','di16','cl16')">
+            <img src="images/Trending/oblivion.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im16">
+            <div class="modal" id="di16">
+                <div class="modalContent">
+                     <span class="close" id="cl16">&times;</span>
+                     <img src="images/Trending/oblivion.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n16')" id="n16" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im17','di17','cl17')">
+            <img src="images/Trending/qos.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im17">
+            <div class="modal" id="di17">
+                <div class="modalContent">
+                     <span class="close" id="cl17">&times;</span>
+                     <img src="images/Trending/qos.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n17')" id="n17" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im18','di18','cl18')">
+            <img src="images/Trending/TheFameGame.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im18">
+            <div class="modal" id="di18">
+                <div class="modalContent">
+                     <span class="close" id="cl18">&times;</span>
+                     <img src="images/Trending/TheFameGame.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n18')" id="n18" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im19','di19','cl19')">
+            <img src="images/Trending/whatif.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im19">
+            <div class="modal" id="di19">
+                <div class="modalContent">
+                     <span class="close" id="cl19">&times;</span>
+                     <img src="images/Trending/whatif.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n19')" id="n19" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im20','di20','cl20')">
+            <img src="images/Trending/behindhereyes.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im20">
+            <div class="modal" id="di20">
+                <div class="modalContent">
+                     <span class="close" id="cl20">&times;</span>
+                     <img src="images/Trending/behindhereyes.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n20')" id="n20" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="action">
+    <div style="color: white;">Action</div>
+    <div class="trendingflex">
+       <div onclick="zoom('im1','di1','cl1')">
+            <img src="images/Action/anna.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im1">
+            <div class="modal" id="di1">
+                <div class="modalContent">
+                     <span class="close" id="cl1">&times;</span>
+                     <img src="images/Action/anna.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n1')" id="n1" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im2','di2','cl2')">
+            <img src="images/Action/fallout.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im2">
+            <div class="modal" id="di2">
+                <div class="modalContent">
+                     <span class="close" id="cl2">&times;</span>
+                     <img src="images/Action/fallout.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n2')" id="n2" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im3','di3','cl3')">
+            <img src="images/Action/godzilla.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im3">
+            <div class="modal" id="di3">
+                <div class="modalContent">
+                     <span class="close" id="cl3">&times;</span>
+                     <img src="images/Action/godzilla.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n3')" id="n3" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im4','di4','cl4')">
+            <img src="images/Action/jumanji.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im4">
+            <div class="modal" id="di4">
+                <div class="modalContent">
+                     <span class="close" id="cl4">&times;</span>
+                     <img src="images/Action/jumanji.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n4')" id="n4" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im5','di5','cl5')">
+            <img src="images/Action/lucy.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im5">
+            <div class="modal" id="di5">
+                <div class="modalContent">
+                     <span class="close" id="cl5">&times;</span>
+                     <img src="images/Action/lucy.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n5')" id="n5" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im6','di6','cl6')">
+            <img src="images/Action/meg.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im6">
+            <div class="modal" id="di6">
+                <div class="modalContent">
+                     <span class="close" id="cl6">&times;</span>
+                     <img src="images/Action/meg.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n6')" id="n6" class="playbut">Play</button>
+                </div>
+            </div>
+        </div> 
+        <div onclick="zoom('im7','di7','cl7')">
+            <img src="images/Action/mib.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im7">
+            <div class="modal" id="di7">
+                <div class="modalContent">
+                     <span class="close" id="cl7">&times;</span>
+                     <img src="images/Action/mib.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n7')" id="n7" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>  
+        <div onclick="zoom('im8','di8','cl8')">
+            <img src="images/Action/spiderman.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im8">
+            <div class="modal" id="di8">
+                <div class="modalContent">
+                     <span class="close" id="cl8">&times;</span>
+                     <img src="images/Action/spiderman.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n8')" id="n8" class="playbut">Play</button>
+                </div>
+            </div>
+        </div> 
+        <div onclick="zoom('im9','di9','cl9')">
+            <img src="images/Action/twilight.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im9">
+            <div class="modal" id="di9">
+                <div class="modalContent">
+                     <span class="close" id="cl9">&times;</span>
+                     <img src="images/Action/twilight.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n9')" id="n9" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im10','di10','cl10')">
+            <img src="images/Action/fallout.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im10">
+            <div class="modal" id="di10">
+                <div class="modalContent">
+                     <span class="close" id="cl10">&times;</span>
+                     <img src="images/Action/fallout.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n10')" id="n10" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="action">
+    <div style="color:white;">Futuristic Sci-Fi</div>
+    <div class="trendingflex">
+
+        <div onclick="zoom('im21','di21','cl21')">
+            <img src="images/Scifi/anotherlife.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im21">
+            <div class="modal" id="di21">
+                <div class="modalContent">
+                     <span class="close" id="cl21">&times;</span>
+                     <img src="images/Scifi/anotherlife.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n21')" id="n21" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im22','di22','cl22')">
+            <img src="images/Scifi/blackmirror.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im22">
+            <div class="modal" id="di22">
+                <div class="modalContent">
+                     <span class="close" id="cl22">&times;</span>
+                     <img src="images/Scifi/blackmirror.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n22')" id="n22" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im23','di23','cl23')">
+            <img src="images/Scifi/elysium.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im23">
+            <div class="modal" id="di23">
+                <div class="modalContent">
+                     <span class="close" id="cl23">&times;</span>
+                     <img src="images/Scifi/elysium.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n23')" id="n23" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im24','di24','cl24')">
+            <img src="images/Scifi/inception.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im24">
+            <div class="modal" id="di24">
+                <div class="modalContent">
+                     <span class="close" id="cl24">&times;</span>
+                     <img src="images/Scifi/inception.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n24')" id="n24" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im25','di25','cl25')">
+            <img src="images/Scifi/lostinspace.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im25">
+            <div class="modal" id="di25">
+                <div class="modalContent">
+                     <span class="close" id="cl25">&times;</span>
+                     <img src="images/Scifi/lostinspace.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n25')" id="n25" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im26','di26','cl26')">
+            <img src="images/Scifi/maniac.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im26">
+            <div class="modal" id="di26">
+                <div class="modalContent">
+                     <span class="close" id="cl26">&times;</span>
+                     <img src="images/Scifi/maniac.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n26')" id="n26" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im27','di27','cl27')">
+            <img src="images/Scifi/matrix.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im27">
+            <div class="modal" id="di27">
+                <div class="modalContent">
+                     <span class="close" id="cl27">&times;</span>
+                     <img src="images/Scifi/matrix.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n27')" id="n27" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im28','di28','cl28')">
+            <img src="images/Scifi/pacificrim.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im28">
+            <div class="modal" id="di28">
+                <div class="modalContent">
+                     <span class="close" id="cl28">&times;</span>
+                     <img src="images/Scifi/pacificrim.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n28')" id="n28" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im29','di29','cl29')">
+            <img src="images/Scifi/the100.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im29">
+            <div class="modal" id="di29">
+                <div class="modalContent">
+                     <span class="close" id="cl29">&times;</span>
+                     <img src="images/Scifi/the100.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n29')" id="n29" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+</div>
+<div class="action">
+    <div style="color:white;">Bollywood</div>
+    <div class="trendingflex">
+
+
+        <div onclick="zoom('im31','di31','cl31')">
+            <img src="images/bollywood/3idiots.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im31">
+            <div class="modal" id="di31">
+                <div class="modalContent">
+                     <span class="close" id="cl31">&times;</span>
+                     <img src="images/bollywood/3idiots.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n31')" id="n31" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im32','di32','cl32')">
+            <img src="images/bollywood/badla.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im32">
+            <div class="modal" id="di32">
+                <div class="modalContent">
+                     <span class="close" id="cl32">&times;</span>
+                     <img src="images/bollywood/badla.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n32')" id="n32" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im33','di33','cl33')">
+            <img src="images/bollywood/bazzar.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im33">
+            <div class="modal" id="di33">
+                <div class="modalContent">
+                     <span class="close" id="cl33">&times;</span>
+                     <img src="images/bollywood/bazzar.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n33')" id="n33" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im34','di34','cl34')">
+            <img src="images/bollywood/drishyam.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im34">
+            <div class="modal" id="di34">
+                <div class="modalContent">
+                     <span class="close" id="cl34">&times;</span>
+                     <img src="images/bollywood/drishyam.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n34')" id="n34" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im35','di35','cl35')">
+            <img src="images/bollywood/ludo.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im35">
+            <div class="modal" id="di35">
+                <div class="modalContent">
+                     <span class="close" id="cl35">&times;</span>
+                     <img src="images/bollywood/ludo.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n35')" id="n35" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im36','di36','cl36')">
+            <img src="images/bollywood/marrykom.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im36">
+            <div class="modal" id="di36">
+                <div class="modalContent">
+                     <span class="close" id="cl36">&times;</span>
+                     <img src="images/bollywood/marrykom.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n36')" id="n36" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im37','di37','cl37')">
+            <img src="images/bollywood/phantom.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im37">
+            <div class="modal" id="di37">
+                <div class="modalContent">
+                     <span class="close" id="cl37">&times;</span>
+                     <img src="images/bollywood/phantom.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n3')" id="n37" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im38','di38','cl38')">
+            <img src="images/bollywood/thebody.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im38">
+            <div class="modal" id="di38">
+                <div class="modalContent">
+                     <span class="close" id="cl38">&times;</span>
+                     <img src="images/bollywood/thebody.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n38')" id="n38" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im39','di39','cl39')">
+            <img src="images/bollywood/whitetiger.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im39">
+            <div class="modal" id="di39">
+                <div class="modalContent">
+                     <span class="close" id="cl39">&times;</span>
+                     <img src="images/bollywood/whitetiger.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n39')" id="n39" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im40','di40','cl40')">
+            <img src="images/bollywood/yjhd.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im40">
+            <div class="modal" id="di40">
+                <div class="modalContent">
+                     <span class="close" id="cl40">&times;</span>
+                     <img src="images/bollywood/yjhd.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n40')" id="n40" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="action">
+    <div style="color:white;">Kids</div>
+    <div class="trendingflex">
+          
+        <div onclick="zoom('im41','di41','cl41')">
+            <img src="images/kids/angryb.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im41">
+            <div class="modal" id="di41">
+                <div class="modalContent">
+                     <span class="close" id="cl41">&times;</span>
+                     <img src="images/kids/angryb.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n41')" id="n41" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im42','di42','cl42')">
+            <img src="images/kids/yesday.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im42">
+            <div class="modal" id="di42">
+                <div class="modalContent">
+                     <span class="close" id="cl42">&times;</span>
+                     <img src="images/kids/yesday.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n42')" id="n42" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im43','di43','cl43')">
+            <img src="images/kids/benji.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im43">
+            <div class="modal" id="di43">
+                <div class="modalContent">
+                     <span class="close" id="cl43">&times;</span>
+                     <img src="images/kids/benji.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n43')" id="n43" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im44','di44','cl44')">
+            <img src="images/kids/theunlisted.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im44">
+            <div class="modal" id="di44">
+                <div class="modalContent">
+                     <span class="close" id="cl44">&times;</span>
+                     <img src="images/kids/theunlisted.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n44')" id="n44" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im45','di45','cl45')">
+            <img src="images/kids/bossbaby.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im45">
+            <div class="modal" id="di45">
+                <div class="modalContent">
+                     <span class="close" id="cl45">&times;</span>
+                     <img src="images/kids/bossbaby.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n45')" id="n45" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im46','di46','cl46')">
+            <img src="images/kids/thekaratekid.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im46">
+            <div class="modal" id="di46">
+                <div class="modalContent">
+                     <span class="close" id="cl46">&times;</span>
+                     <img src="images/kids/thekaratekid.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n46')" id="n46" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im47','di47','cl47')">
+            <img src="images/kids/kungfupanda.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im47">
+            <div class="modal" id="di47">
+                <div class="modalContent">
+                     <span class="close" id="cl47">&times;</span>
+                     <img src="images/kids/kungfupanda.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n47')" id="n47" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im48','di48','cl48')">
+            <img src="images/kids/skatergirl.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im48">
+            <div class="modal" id="di48">
+                <div class="modalContent">
+                     <span class="close" id="cl48">&times;</span>
+                     <img src="images/kids/skatergirl.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n48')" id="n48" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im49','di49','cl49')">
+            <img src="images/kids/matilda.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im49">
+            <div class="modal" id="di49">
+                <div class="modalContent">
+                     <span class="close" id="cl49">&times;</span>
+                     <img src="images/kids/matilda.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n49')" id="n49" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+        <div onclick="zoom('im50','di50','cl50')">
+            <img src="images/kids/scardycats.jpeg" style="width: 240px;height: 140px;" class="openModal" id="im50">
+            <div class="modal" id="di50">
+                <div class="modalContent">
+                     <span class="close" id="cl50">&times;</span>
+                     <img src="images/kids/scardycats.jpeg">
+                     <p style="color: white;text-align: left;">Watch Netflix movies & Tv shows online or stream right to your smart TV.</p>
+                     <button onclick="videozoom('netvideo','nb1','n50')" id="n50" class="playbut">Play</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="back7" style="border-bottom:none ;">
+    <p style="color:rgb(117, 117, 117) ;margin-left: 18%;padding-top: 60px;">Questions? Call <b>000-800-040-1843</b></p>
+    <div class="flex7">
+       <div>
+          <ul style="list-style-type: none;">
+             <a href="none"><li>FAQ</li></a>
+             <a href="none"><li>Investor Relations</li></a>
+             <a href="none"><li>Privacy</li></a>
+             <a href="none"><li>Speed Test</li></a>
+          </ul>
+        </div>
+        <div>
+           <ul style="list-style-type: none;">
+              <a href="none"><li>Help Center</li></a>
+              <a href="none"><li>Jobs</li></a>
+              <a href="none"><li>Cookie Prefrences</li></a>
+              <a href="none"><li>Legal Notices</li></a>
+           </ul>
+        </div>
+        <div>
+           <ul style="list-style-type: none;">
+              <a href="none"><li>Account</li></a>
+              <a href="none"><li>Ways to Watch</li></a>
+              <a href="none"><li>Corporate Information</li></a>
+              <a href="none"><li>Only on Netflix</li></a>
+           </ul>
+        </div>
+        <div>
+           <ul style="list-style-type: none;">
+              <a href="none"><li>Media Center</li></a>
+              <a href="none"><li>Terms of Use</li></a>
+              <a href="none"><li>Contact Us</li></a>
+           </ul>
+         </div>
+     </div>    
+</div>
+<div id="netvideo" class="trvideo">
+    <span class="close2" id="nb1" onclick="closev('netvideo','nb1','vid')">&times;</span>
+    <video controls style="width: 70%;padding-top: 10%;" id="vid">
+        <source src="Y2Mate.is - JOKER - Final Trailer - Now Playing In Theaters-zAGVQLHvwOY-720p-1648495020959.mp4" type="video/mp4">
+    </video>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
